@@ -1,5 +1,5 @@
-You can visit [lihuaib.org](http://lihuaib.org)
+My Personal Site
 ===============
 > This is my blog to post my lean and think   
 > And so on..   
-> or can visit on http://lihuaib.github.com/lihuaib
+> or can visit on http://lihuaib.github.com

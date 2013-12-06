@@ -2,5 +2,4 @@ _draft/
 _site/
 .DS_Store
 _posts/project
-_config.yml.bak
-_config.yml.blog
+_config.yml.*

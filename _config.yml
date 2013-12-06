@@ -1,0 +1,15 @@
+permalink: /:year/:month/:day/:title
+paginate: 10
+markdown: redcarpet
+author: 
+  name: 李树杰 
+  email: lishujie911@gmail.com
+  link: http://lihuaib.org
+
+title: lihuaib的博客 
+locals:
+  tags: 标签页
+  about: 关于我
+  archive: 归档 
+active: 技术技巧
+subscribe_rss: /pages/atom.xml

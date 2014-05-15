@@ -6,6 +6,13 @@ tags: [项目管理]
 keywords: svn,git 
 description: svn 和 git 在项目中常用的命令
 ---
+
+####设置不用输入密码
+
+    ~/.subversion/config 
+        修改 # store-passwords = no
+          为 store-passwords = yes
+
 ####比较两个版本: 比如 602 和 712(最新)
 
     svn diff -r602:712 或者 svn diff -r602:HEAD(最新)
@@ -20,11 +27,15 @@ description: svn 和 git 在项目中常用的命令
 
     svn co svn+ssh://serverpath1 localfolder
     git clone path localfolder 
+    ## 或者
+    git pull https://github.com/lihuaib/pseudocrypt.git
 
 ####提交代码
 
     svn ci -m 'this is msg' 
-    git commit -m 'this is msg' 
+    git commit -m 'this is msg' # 提交到本地
+    ## git 提交到服务器
+    git push https://github.com/lihuaib/pseudocrypt.git master
 
 ####回滚
 
@@ -34,4 +45,9 @@ description: svn 和 git 在项目中常用的命令
 ####查看当前svn/git目录信息
 
     svn info
+
+####将work copy出的版本合并到原来的版本上
+
+    # 将 a 的代码 merge 到 b 中
+    svn merge branches_name@version branches_name .
 

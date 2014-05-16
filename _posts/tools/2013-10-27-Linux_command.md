@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux 以及 Ubuntu 常用命令 
-category: 技术技巧 
+category: 工具 
 tags: [linux]
 keywords: linux, ubuntu 
 description: 常用命令集合 

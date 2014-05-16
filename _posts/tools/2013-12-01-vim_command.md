@@ -1,7 +1,7 @@
 ---
 layout: post
 title: vim 及 插件 常用命令 
-category: 技术技巧 
+category: 工具
 tags: [vim]
 keywords: vim
 description: vim 命令备忘 

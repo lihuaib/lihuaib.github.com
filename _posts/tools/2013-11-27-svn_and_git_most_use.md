@@ -1,7 +1,7 @@
 ---
 layout: post
 title: svn 和 git 常用命令 
-category: 技术技巧 
+category: 工具
 tags: [项目管理]
 keywords: svn,git 
 description: svn 和 git 在项目中常用的命令

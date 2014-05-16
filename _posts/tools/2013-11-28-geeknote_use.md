@@ -1,7 +1,7 @@
 ---
 layout: post
 title: geeknote 同步 evernote 
-category: 技术技巧 
+category: 工具
 tags: [geeknote]
 keywords: vim,geeknote 
 description: vim在Evernote上进行同步文档

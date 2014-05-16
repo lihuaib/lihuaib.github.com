@@ -1,7 +1,7 @@
 ---
 layout: post
 title: apk 签名 
-category: 技术技巧 
+category: 工具
 tags: [android]
 keywords: apk 签名
 ---

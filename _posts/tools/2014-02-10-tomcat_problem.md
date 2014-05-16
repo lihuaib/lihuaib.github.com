@@ -1,7 +1,7 @@
 ---
 layout: post
 title: tomcat 的问题
-category: 技术技巧 
+category: 工具
 tags: [server]
 keywords: java tomcat
 ---

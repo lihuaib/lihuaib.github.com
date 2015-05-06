@@ -14,9 +14,8 @@ description: 常用命令集合
     sudo passwd -l root #禁用root 账户
     sudo passwd -u root #重新启用root 账户
 
-####SSH操作
-
-    ssh -qTfnN -D 端口 user_name@host_home #firefox addon AutoProxy
+    # 增加某个用户的组别，原来是 group1 现在要是 group1 group2
+    usermod -a -G group2 user
 
 ####解压和压缩
 
@@ -25,13 +24,10 @@ description: 常用命令集合
 
     tar -zcvf /tmp/etc.tar.gz /etc #压缩 将/etc 目录压缩
     tar xzvf apache-tomcat-7.0.50.tar.gz #解压
+    unzip -O CP936 xxx.zip   #将windows 的zip 加压 无乱码
 
     jar cvf foldera.war ./foldera  # war 压缩
     jar xvf foldera.war  # war 解压
-
-####连接有线网络
- 
-    sudo pppoeconf 
 
 ####安装bundle 程序
  
@@ -41,8 +37,52 @@ description: 常用命令集合
  
     egrep -ir  "(scan_qr)" ./*  #在当前的目录下遍历查找
  
- ####Linux command get tomcat process id by name
+####Linux command get tomcat process id by name
 
     ps -ef | grep tomcat6 | grep java | awk ' { print $2 } '
     
+####后台运行程序
 
+    ## method 1
+    command &
+
+    ## method 2
+    nohup command > error.log
+    ctrl-z
+
+####diff 两个文件夹
+
+    diff -ruNa f1 f2
+    diff -ruNa -x \*.class -x \*.dex -x \*.jar -x \*.apk -x \*.cache android_2_2_0 ../trunk/android/project > diff
+    
+#### 启动画面
+
+    sudo update-alternatives --config default.plymouth
+    sudo update-initramfs -u 
+
+#### 制作gif
+
+
+    安装 
+    sudo apt-get install imagemagick mplayer gtk-recordmydesktop
+
+    使用 gtk-recordmydesktop 录制并保存文件为 out.ogv
+
+    执行如下命令將 out.ogv 分解成单帧图片 
+    mplayer -ao null out.ogv -vo jpeg:outdir=.
+
+    执行如下命令將单帧图片压缩成 gif 图片 
+    convert *.jpg out.gif
+
+    执行如下命令將 gif 图片进行压缩 
+    convert out.gif -fuzz 10% -layers Optimize optimized.gif
+    
+
+#### 制作gif
+
+    长宽都放缩为原来的50%
+    for jpgfile in `ls` ; do convert $jpgfile -resize %50 new_$jpgfile ; done
+
+    
+
+ 

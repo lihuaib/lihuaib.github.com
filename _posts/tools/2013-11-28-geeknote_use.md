@@ -8,6 +8,11 @@ description: vim在Evernote上进行同步文档
 ---
 ##在clone geeknote之后, 自己常用的一些命令如下
 
+### 网址
+    http://www.geeknote.me/
+    git clone git://github.com/VitaliyRodnenko/geeknote.git
+    https://github.com/VitaliyRodnenko/geeknote
+
 ####查找笔记
 
     geeknote find
@@ -17,11 +22,4 @@ description: vim在Evernote上进行同步文档
 
     geeknote edit
 
-####添加笔记
-
-    geeknote 
-
-####同步笔记
-
-    geeknote sy
 

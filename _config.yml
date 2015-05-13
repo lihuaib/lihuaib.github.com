@@ -1,7 +1,7 @@
 permalink: /:year/:month/:day/:title
 paginate: 10
 markdown: kramdown
-pygments: true
+highlighter: true
 
 kramdown:
   input: GFM
@@ -12,7 +12,7 @@ author:
   link: http://lihuaib.org
 
 # avatar头像及Favicon
-avatar: https://github.com/lihuaib/lihuaib.github.com/tree/master/assets/img/avatar.jpg
+avatar: https://raw.githubusercontent.com/lihuaib/lihuaib.github.com/master/assets/img/avatar.jpg
 
 title: lihuaib的博客 
 locals:
@@ -21,3 +21,7 @@ locals:
   archive: 归档 
 active: 技术技巧
 subscribe_rss: /pages/atom.xml
+
+# disqus 设置
+disqus:
+  shortname: lihuaib

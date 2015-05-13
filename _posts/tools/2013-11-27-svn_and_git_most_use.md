@@ -69,7 +69,8 @@ description: svn 和 git 在项目中常用的命令
 
 
 ####svn 批量删除
-svn status|grep ! |awk '{print $2}'|xargs svn rm
+
+    svn status|grep ! |awk '{print $2}'|xargs svn rm
 
 ####恢复原来删除的代码
 

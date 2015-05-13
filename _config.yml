@@ -1,10 +1,18 @@
 permalink: /:year/:month/:day/:title
 paginate: 10
-markdown: redcarpet
+markdown: kramdown
+pygments: true
+
+kramdown:
+  input: GFM
+
 author: 
   name: 李树杰 
   email: lishujie911@gmail.com
   link: http://lihuaib.org
+
+# avatar头像及Favicon
+avatar: https://github.com/lihuaib/lihuaib.github.com/tree/master/assets/img/avatar.jpg
 
 title: lihuaib的博客 
 locals:

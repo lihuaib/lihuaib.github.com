@@ -83,6 +83,16 @@ description: 常用命令集合
     长宽都放缩为原来的50%
     for jpgfile in `ls` ; do convert $jpgfile -resize %50 new_$jpgfile ; done
 
-    
+#### 常用软件的诊断修复
+
+    # 查看firefox 的错误追踪
+    strace -o err.txt firefox 
+
+#### coredump
+
+    ulimit -c unlimited
+    sudo su
+    echo /var/log/coredump/core.%e.%p > /proc/sys/kernel/core_pattern
+
 
  

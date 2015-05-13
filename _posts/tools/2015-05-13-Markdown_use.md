@@ -115,24 +115,24 @@ $$块级公式x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
 可以渲染序列图：
 
-```sequence
-张三->李四: 嘿，小四儿, 写博客了没?
-Note right of 李四: 李四愣了一下，说：
-李四-->张三: 忙得吐血，哪有时间写。
-```
+    ```sequence
+    张三->李四: 嘿，小四儿, 写博客了没?
+    Note right of 李四: 李四愣了一下，说：
+    李四-->张三: 忙得吐血，哪有时间写。
+    ```
 
 或者流程图：
 
-```flow
-st=>start: 开始
-e=>end: 结束
-op=>operation: 我的操作
-cond=>condition: 确认？
+    ```flow
+    st=>start: 开始
+    e=>end: 结束
+    op=>operation: 我的操作
+    cond=>condition: 确认？
 
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
+    st->op->cond
+    cond(yes)->e
+    cond(no)->op
+    ```
 
 - 关于 **序列图** 语法，参考 [这儿][4],
 - 关于 **流程图** 语法，参考 [这儿][5].

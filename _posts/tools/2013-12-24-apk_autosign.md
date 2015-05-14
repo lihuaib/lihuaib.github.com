@@ -6,11 +6,11 @@ tags: [android]
 keywords: apk 签名
 ---
 
-####Apk在Ubuntui(Linux)下的签名
+### Apk在Ubuntui(Linux)下的签名
 
     假设当前拿到手的apk的名称为 ccpal_unsigned.apk
 
-#####Step 1. 生成 keystore 
+#### Step 1. 生成 keystore 
 
     # 你可以替换
     # 1. demo.keystore  ==> yourname.keystore
@@ -22,7 +22,7 @@ keywords: apk 签名
     keytool -genkey -alias demo -keyalg RSA -validity 4000000 -keystore demo.keystore
 
 
-#####Step 2. 生成 apk 
+#### Step 2. 生成 apk 
 
     /*
         说明：
@@ -35,7 +35,7 @@ keywords: apk 签名
     */
     jarsigner -verbose -keystore demo.keystore -signedjar ccpal_signed.apk ccpal_unsigned.apk demo
     
-#####Step 3. 简单优化签名后的资源文件 
+#### Step 3. 简单优化签名后的资源文件 
 
     # 对齐资源文件
     zipalign -v 4 ccpal_signed.apk ccpal_final.apk
@@ -43,6 +43,6 @@ keywords: apk 签名
     zipalign -c -v 4 ccppal_final.apk
  
 
-###问题
->如果出现 jarsigner: unable to sign jar: java.util.zip.ZipException: invalid entry compressed size 这样的错误
->>那么 导出 apk 的时候, 选择 Android Tools -> Export UnSigned Appication Package. 
+### 问题
+> 如果出现 jarsigner: unable to sign jar: java.util.zip.ZipException: invalid entry compressed size 这样的错误
+> 那么 导出 apk 的时候, 选择 Android Tools -> Export UnSigned Appication Package. 

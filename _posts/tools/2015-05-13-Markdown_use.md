@@ -8,7 +8,7 @@ description: markdown 语法
 ---
 # 欢迎使用Markdown编辑器写博客
 
-本Markdown编辑器使用[StackEdit][6]修改而来，用它写博客，将会带来全新的体验哦：
+Markdown编辑器参考[StackEdit][6]部分语法，用它写博客，将会带来全新的体验哦：
 
 - **Markdown和扩展Markdown简洁的语法**
 - **代码块高亮**
@@ -23,7 +23,7 @@ description: markdown 语法
 
 ## 快捷键
 
- - 加粗    `Ctrl + B` 
+- 加粗    `Ctrl + B` 
 - 重做    `Ctrl + Y`
 
 ## Markdown及扩展
@@ -52,6 +52,8 @@ Pipe     | $1
 | Phone     |   12 元 |  12  |
 | Pipe      |    1 元 | 234  |
 
+
+
 ###定义列表
 
 **Markdown　Extra**　定义列表语法：
@@ -69,6 +71,7 @@ Pipe     | $1
 
 ### 代码块
 代码块语法遵循标准markdown代码，例如：
+
 ``` python
 @requires_authorization
 def somefunc(param1='', param2=0):
@@ -82,6 +85,28 @@ class SomeClass:
 ... prompt'''
 ```
 
+{% highlight python %}
+@requires_authorization
+def somefunc(param1='', param2=0):
+    '''A docstring'''
+    if param1 > param2: # interesting
+        print 'Greater'
+    return (param2 - param1 + 1) or None
+class SomeClass:
+    pass
+>>> message = '''interpreter
+... prompt'''
+{% endhighlight %}
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+
 ###脚注
 生成一个脚注[^footnote].
   [^footnote]: 这里是 **脚注** 的 *内容*.
@@ -94,7 +119,12 @@ class SomeClass:
 ### 数学公式
 使用MathJax渲染*LaTex* 数学公式，详见[math.stackexchange.com][1].
 
- - 行内公式，数学公式为：$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。
+ - 行内公式，数学公式为：
+        $$a^2 + b^2 = c^2$$
+        \\( sin(x^2) \\)
+        $$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
+        \\[ \mathbf{X} = \mathbf{Z} \mathbf{P^\mathsf{T}} \\]
+        $$ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} $$
  - 块级公式：
 
 $$块级公式x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
@@ -103,26 +133,32 @@ $$块级公式x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
 ### UML 图:
 
+[reffer url](http://xiaocong.github.io/blog/2013/04/22/writing-development-documentation-with-markdown/)
+<img src="http://yuml.me/diagram/nofunky/activity/(start)->(Boil Kettle)->(end)" >
+
+<img src="http://yuml.me/diagram/scruffy/usecase/[Customer]-(Login),[Customer]-(Logout)" >
+
+
 可以渲染序列图：
 
-    ```sequence
-    张三->李四: 嘿，小四儿, 写博客了没?
-    Note right of 李四: 李四愣了一下，说：
-    李四-->张三: 忙得吐血，哪有时间写。
-    ```
+```sequence
+张三->李四: 嘿，小四儿, 写博客了没?
+Note right of 李四: 李四愣了一下，说：
+李四-->张三: 忙得吐血，哪有时间写。
+```
 
 或者流程图：
 
-    ```flow
-    st=>start: 开始
-    e=>end: 结束
-    op=>operation: 我的操作
-    cond=>condition: 确认？
+```flow
+st=>start: 开始
+e=>end: 结束
+op=>operation: 我的操作
+cond=>condition: 确认？
 
-    st->op->cond
-    cond(yes)->e
-    cond(no)->op
-    ```
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
 
 - 关于 **序列图** 语法，参考 [这儿][4],
 - 关于 **流程图** 语法，参考 [这儿][5].

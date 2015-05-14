@@ -13,12 +13,12 @@ description: vim在Evernote上进行同步文档
     git clone git://github.com/VitaliyRodnenko/geeknote.git
     https://github.com/VitaliyRodnenko/geeknote
 
-####查找笔记
+### 查找笔记
 
     geeknote find
     
 
-####编辑笔记
+### 编辑笔记
 
     geeknote edit
 

@@ -88,12 +88,3 @@ description: 常用命令集合
 
     # 查看firefox 的错误追踪
     strace -o err.txt firefox 
-
-### coredump
-
-    ulimit -c unlimited
-    sudo su
-    echo /var/log/coredump/core.%e.%p > /proc/sys/kernel/core_pattern
-
-
- 

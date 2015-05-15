@@ -15,5 +15,11 @@ tags: [android]
 
     adb shell /system/bin/screencap -p /sdcard/screenshot.png
     adb pull /sdcard/screenshot.png ./screenshot.png
+    
+    #脚本调用 ./snapshot 1.jpg
+    #!/bin/bash
+    adb shell /system/bin/screencap -p /sdcard/$1
+    adb pull /sdcard/$1 ./$1
+    
 
 

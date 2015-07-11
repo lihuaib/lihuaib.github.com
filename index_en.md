@@ -4,6 +4,7 @@ title: Hi I am lee
 ---
 
 ##  Resume （[Chinese](index.html)）
+download [pdf](index_en.pdf)
 
 ## Contact
 
@@ -16,8 +17,8 @@ title: Hi I am lee
 - lihuaib/man/1988
 - undergraduate course/ShaoXing Univercity
 - Work Experience：4.5 years
-- Blog：http://lihuaib.github.io/
-- Github: https://github.com/lihuaib
+- Blog：[http://lihuaib.github.io/](http://lihuaib.github.io/)
+- Github: [https://github.com/lihuaib](https://github.com/lihuaib)
 
 - Expect Jobs：Java Senior Programmer，android Developer
 - Expect City：Ningbo/Hangzhou
@@ -28,7 +29,8 @@ title: Hi I am lee
 
 ### Yitong Software Company （2013-07 ～ Now）
 
-#### Ccpal Project
+#### Ccpal Project [https://play.google.com/store/apps/details?id=com.netspectrum.ccpal](https://play.google.com/store/apps/details?id=com.netspectrum.ccpal)
+![Alt text](uploads/img/ccpal_1.png)
 - Technical language： Java, PHP, bash， sql
 - Framework： YII， SSH
 
@@ -44,8 +46,8 @@ title: Hi I am lee
 
 >Effect: After I take over the project,  the users on android of ccpal growth from 2 w to 7w， and got 4 star on google play
 
-#### Jinggling Project
-
+#### Jinggling Project [https://play.google.com/store/apps/details?id=com.netspectrum.Ezcall](https://play.google.com/store/apps/details?id=com.netspectrum.Ezcall)
+![Alt text](uploads/img/jinggling_1.jpeg)
 > this Project is branch of ccpal， but the mostly user belong to england， and integrated with pay platform
 > Thanks for the users of the Project，and good anti-fraud mechanism， this project got Thousands dollars per week.
 
@@ -54,6 +56,8 @@ title: Hi I am lee
 ### Hangzhou Ganyu Technical Company （2012-05 ～ 2012-10）
 
 #### Kangxi Texas Poker Project
+![Alt text](uploads/img/kangxi_poker_1.jpeg)
+![Alt text](uploads/img/kangxi_poker_2.jpg)
 - Technical language： C#， Java， IOS， SQL
 - Framework： Photon， Unity， entityframework
 
@@ -69,7 +73,8 @@ title: Hi I am lee
 
 ### CI&T  （2010-12 ～ 2012-04）
 
-#### Johnson acuvue Project （Sites： http://www.acuvue.com.cn）
+#### Johnson acuvue Project （Sites： [http://www.acuvue.com.cn](http://www.acuvue.com.cn)）
+![Alt text](uploads/img/acuvue_1.png)
 - Technical language： PHP， SQL
 - Framework： drupal
 
@@ -91,7 +96,7 @@ title: Hi I am lee
 
 ---
 
-### My Project
+### Personal Project
 > In school period, in order to solve some of the software automation problems, individuals pick up part of the Project
 
 #### Shaoxing Yijing Dairy milk distribution management system
@@ -110,7 +115,8 @@ title: Hi I am lee
 
 > After the companies use the software, the operation human from the original four to reduce the current two, and can have their own free time, not like before, stay up late, efficiency has been improved. On Shaoxing Annual Agricultural Fair, the company use the software within three days of nearly 2k people registered, and finish work only in one hour(long time ago, it used to get nearly all night)
 
-#### Shaoxing Yijing Order Milk Site (Site: http://96211.net/Product/List)
+#### Shaoxing Yijing Order Milk Site (Site: [http://96211.net/Product/List](http://96211.net/Product/List)
+![Alt text](uploads/img/yijing_site_1.png)
 - Technical language：C#， SQL
 - Framework： entityframework
 

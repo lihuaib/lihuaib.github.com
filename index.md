@@ -4,6 +4,7 @@ title: Hi 我是 lee
 ---
 
 ##  简历 （[英文部分](index_en.html)）
+下载 [pdf](index.pdf)
 
 ## 联系方式
 
@@ -16,19 +17,19 @@ title: Hi 我是 lee
 - lihuaib/男/1988
 - 本科/绍兴文理学院
 - 工作年限：4.5年
-- 技术博客：http://lihuaib.github.io/
-- Github: https://github.com/lihuaib
+- 技术博客：[http://lihuaib.github.io/](http://lihuaib.github.io/)
+- Github: [https://github.com/lihuaib](https://github.com/lihuaib)
 
 - 期望职位：Java 高级程序员，android 工程师
 - 期望城市：宁波/杭州
 
 ---
-
-## 工作经历
+## 工作经历及项目
 
 ### 易通软件科技有限公司 （2013年7月 ～ 至今）
 
-#### Ccpal 项目
+#### Ccpal 项目 [https://play.google.com/store/apps/details?id=com.netspectrum.ccpal](https://play.google.com/store/apps/details?id=com.netspectrum.ccpal)
+![Alt text](uploads/img/ccpal_1.png)
 - 技术语言： Java, PHP, bash， sql
 - 框架： YII， SSH
 
@@ -44,8 +45,8 @@ title: Hi 我是 lee
 
 >在我接手该项目后，ccpal 的android用户 从原来的 2 w 提高到了目前的 7w， 并且在google中也得到平均 4星的好评
 
-#### Jinggling 项目
-
+#### Jinggling 项目 [https://play.google.com/store/apps/details?id=com.netspectrum.Ezcall](https://play.google.com/store/apps/details?id=com.netspectrum.Ezcall)
+![Alt text](uploads/img/jinggling_1.jpeg)
 > 该项目是 ccpal 的分支， 目地和 ccpal 的目地相同， 但是更主要的客户群体是英国客户， 并且集成了主流付款平台
 > 依靠该项目的稳定客户群体， 和良好的防诈骗机制， 目前该项目能获得每个星期获取几千美元的收入
 
@@ -54,6 +55,8 @@ title: Hi 我是 lee
 ### 杭州感遇科技 （2012年5月 ～ 2012年10月）
 
 #### 康熙德州扑克 项目
+![Alt text](uploads/img/kangxi_poker_1.jpeg)
+![Alt text](uploads/img/kangxi_poker_2.jpg)
 - 技术语言： C#， Java， IOS， SQL
 - 框架： Photon， Unity， entityframework
 
@@ -69,7 +72,8 @@ title: Hi 我是 lee
 
 ### CI&T  （2010年12月 ～ 2012年4月）
 
-#### 强生美瞳 项目 （网址： http://www.acuvue.com.cn）
+#### 强生美瞳 项目 （网址： [http://www.acuvue.com.cn](http://www.acuvue.com.cn)）
+![Alt text](uploads/img/acuvue_1.png)
 - 技术语言： PHP， SQL
 - 框架： drupal
 
@@ -110,7 +114,8 @@ title: Hi 我是 lee
 
 > 企业采用该软件后， 后台操作人员从本来的4个减少到目前的两个， 并且能够基本准时上下班， 不用像以前一样熬夜了， 效率有了提高。 在每年绍兴的农博会中， 企业采用该软件来面对三天内将近 2k 人的登记 的数据，并且对账只要1个小时就搞定（以前要将近弄通宵）
 
-#### 绍兴一景乳业顶奶网站 http://96211.net/Product/List
+#### 绍兴一景乳业顶奶网站 [http://96211.net/Product/List](http://96211.net/Product/List)
+![Alt text](uploads/img/yijing_site_1.png)
 - 技术语言：C#， SQL
 - 框架： entityframework
 

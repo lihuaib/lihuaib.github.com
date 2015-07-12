@@ -114,7 +114,7 @@ title: Hi 我是 lee
 
 > 企业采用该软件后， 后台操作人员从本来的4个减少到目前的两个， 并且能够基本准时上下班， 不用像以前一样熬夜了， 效率有了提高。 在每年绍兴的农博会中， 企业采用该软件来面对三天内将近 2k 人的登记 的数据，并且对账只要1个小时就搞定（以前要将近弄通宵）
 
-#### 绍兴一景乳业顶奶网站 [http://96211.net/Product/List](http://96211.net/Product/List)
+#### 绍兴一景乳业订奶网站 [http://96211.net/Product/List](http://96211.net/Product/List)
 ![Alt text](uploads/img/yijing_site_1.png)
 - 技术语言：C#， SQL
 - 框架： entityframework

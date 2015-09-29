@@ -20,6 +20,11 @@ keywords: svn,git
 
     svn cp -m 'msg.' svn+ssh://serverpath1  svn+ssh://serverpath2
 
+    git branch aaa # 创建了 aaa 分支
+    git branch     # 查看当前有多少分支
+    git checkout aaa # 切换到 aaa 分支
+    
+
 ### 从服务器下载svn/git代码 checkout/clone
 
     # 从本地导出
@@ -37,6 +42,12 @@ keywords: svn,git
     git commit -m 'this is msg' # 提交到本地
     ## git 提交到服务器
     git push https://github.com/lihuaib/pseudocrypt.git master
+
+    ## 或者分两个步骤
+    1. 用 remote 将代码 加进来
+    git remote add origin git@120.26.73.227:jlee/xiaoyulaoshishuo-android.git
+    2. push 代码过去
+    git push -u origin master
 
 ### 回滚
 

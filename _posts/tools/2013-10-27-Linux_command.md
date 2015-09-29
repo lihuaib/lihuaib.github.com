@@ -88,3 +88,48 @@ description: 常用命令集合
 
     # 查看firefox 的错误追踪
     strace -o err.txt firefox 
+
+### vpn 连接
+
+    sudo apt-get install pptp-linux
+    sudo pptpsetup --create testvpn --server 123.45.67.88 --username kk --password fku --encrypt --start
+
+    pon testvpn <-- VPN的“连接名称"
+    poff <-- 断开VPN连接 
+
+### 安装 oracle  
+
+    $ sudo update-alternatives --install /usr/bin/java java /opt/jdk1.8.0_51/bin/java 700  
+    $ sudo update-alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_51/bin/javac 700  
+    $ sudo update-alternatives --install /usr/bin/jar jar /opt/jdk1.8.0_51/bin/jar 700  
+
+    sudo update-alternatives --config java  
+
+### genymotion
+
+    #regist virtual box
+    sudo /etc/init.d/vboxdrv setup
+
+### android studio 查看 shal
+
+    cd ~/.android
+    keytool -list -keystore debug.keystore
+    密钥  android
+
+### 查看端口进程
+
+    netstat -apn | grep 8080 # 包括进程
+    netstat -tln  # 只查看端口
+
+### 跟踪命令的执行
+
+    mac
+        dtruss
+
+    ubuntu:
+        pstrace        
+
+    定位输出
+       command > out.file 2>&1     
+
+

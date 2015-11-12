@@ -132,4 +132,7 @@ description: 常用命令集合
     定位输出
        command > out.file 2>&1     
 
+    将当前的进程加入 dtruss
+        sudo dtruss -fp 2218 // 2218 是进程编号
+
 

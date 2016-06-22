@@ -45,8 +45,6 @@
 
 ### 杭州感遇科技 （2012年5月 ～ 2013年7月）
 
-> 离职原因：游戏产品竞争失败, 无后备资金支撑
-
 #### 康熙德州扑克 项目
 ![Alt text](uploads/img/kangxi_poker_1.jpeg)
 ![Alt text](uploads/img/kangxi_poker_2.jpg)
@@ -64,8 +62,6 @@
 ---
 
 ### CI&T  （2010年12月 ～ 2012年4月）
-
-> 离职原因：无法满足我对技术的探索
 
 #### 强生美瞳 项目 （网址： [http://www.acuvue.com.cn](http://www.acuvue.com.cn)）
 ![Alt text](uploads/img/acuvue_1.png)
@@ -87,7 +83,6 @@
 > 数据部分： 个人职责是保证平台迁移，分析旧平台数据结构， 然后将2w多条数据从旧的oracle到新平台， 并且保证新平台网页显示结构完整。
 
 > 安全部分： 个人职责是根据企业将近百个群组不同和权限， 引用权限机制，将不同 webpart 配置相应level
-
 
 
 ### 个人项目

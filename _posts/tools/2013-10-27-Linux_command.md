@@ -135,4 +135,6 @@ description: 常用命令集合
     将当前的进程加入 dtruss
         sudo dtruss -fp 2218 // 2218 是进程编号
 
+### Linux 抓包 tcpdump
 
+    tcpdump -p -vv -s 0 -w /sdcard/capture.pcap

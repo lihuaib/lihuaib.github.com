@@ -34,6 +34,9 @@ keywords: apk 签名
             c. 密钥库demo.keystore 的别名.
     */
     jarsigner -verbose -keystore demo.keystore -signedjar ccpal_signed.apk ccpal_unsigned.apk demo
+
+    加上时间戳
+    jarsigner -verbose -keystore /Users/lee/Desktop/Project/xiaoyu/src/xueba-android_v3/jyxb.keystore -signedjar 360.apk app-release_3.6.0_m360.encrypted.apk jyxb -digestalg SHA1 -sigalg MD5withRSA
     
 #### Step 3. 简单优化签名后的资源文件 
 

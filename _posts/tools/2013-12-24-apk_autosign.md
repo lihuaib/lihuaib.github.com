@@ -49,3 +49,4 @@ keywords: apk 签名
 ### 问题
 > 如果出现 jarsigner: unable to sign jar: java.util.zip.ZipException: invalid entry compressed size 这样的错误
 > 那么 导出 apk 的时候, 选择 Android Tools -> Export UnSigned Appication Package. 
+

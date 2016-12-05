@@ -1,3 +1,8 @@
+---
+layout:post
+title: Hi 我是李坏
+---
+
 ## 联系方式
 
 - Email: lishujie911@gmail.com

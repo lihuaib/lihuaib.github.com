@@ -28,12 +28,15 @@ title: Hi 我是 lee
 
 #### 家有学霸 安卓端 [http://www.jiayouxueba.com/](https://play.google.com/store/apps/details?id=com.netspectrum.ccpal)
 ![Alt text](http://file.market.xiaomi.com/thumbnail/jpeg/l395/AppStore/05a1e433b77c452e1e733917f9b6d3e19ac425a50)
+
 - 技术语言： Java, C, python 
 - 框架：eventbus + retrofit + okhttp + 参考fackebook的flux的思想
 
 > 家有学霸是一款在线家教平台，目前功能有发单，抢单，1对1语音白板教学，1对多大教室语音视频白板教学
  
-> android：独立完成产品从0到1的思考，搭建，运行，部署，发布。  踩过坑，拥抱过，也丢弃过各种开源。目前根据这一年的开发，提供了 xylist 针对android list开发的开源组件 [xylist](https://github.com/lihuaib/xylist)
+> android：独立完成产品从0到1的思考，搭建，运行，部署，发布。  踩过坑，拥抱过，也丢弃过各种开源。
+
+> 目前根据这一年的开发，提供了 xylist 针对android list开发的开源组件 [xylist](https://github.com/lihuaib/xylist)
 
 > 后台: 模型采用 mybatis + mysql + redis + dubbo + 阿里云的mq, 个人负责线下服务器wiki, gitlab等工具的搭建，部分参与线上服务器的部署和代码的调优 
 

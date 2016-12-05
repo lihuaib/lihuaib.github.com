@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Hi 我是 lee
 ---
 
 ## 联系方式

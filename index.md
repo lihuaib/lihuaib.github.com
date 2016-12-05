@@ -1,6 +1,6 @@
 ---
-layout:post
-title: Hi 我是李坏
+    layout:post
+    title: Hi 我是李坏
 ---
 
 ## 联系方式

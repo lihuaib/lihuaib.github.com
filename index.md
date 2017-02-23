@@ -50,13 +50,13 @@ title: Hi 我是 lee
 
 > 整个项目采用
 > >    提供了 xylist 针对android list开发的开源组件 [xylist](https://github.com/lihuaib/xylist)
-> >    通用的 自定义的日志模块 个人开源: xyLog https://github.com/lihuaib/xylog
+> >   通用的 自定义的日志模块 个人开源: xyLog https://github.com/lihuaib/xylog
 > >    路由表来封装模块，避免隐式跳转被劫持
 
 
 > 职责：
 > >    1.项目主负责人
-> >    2.参与需求讨论，负责设计架构，模块划分，并且开发和维护。
+> >   2.参与需求讨论，负责设计架构，模块划分，并且开发和维护。
 > >    3.事故原因分析，找出问题并且优化
 > >    4.对所将要采用的开源框架的评估
 

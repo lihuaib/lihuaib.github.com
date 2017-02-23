@@ -50,7 +50,7 @@ title: Hi 我是 lee
 
 > 整个项目采用
 > >    提供了 xylist 针对android list开发的开源组件 [xylist](https://github.com/lihuaib/xylist)
-> >   通用的 自定义的日志模块 个人开源: xyLog https://github.com/lihuaib/xylog
+> >    通用的 自定义的日志模块 个人开源: xyLog https://github.com/lihuaib/xylog
 > >    路由表来封装模块，避免隐式跳转被劫持
 
 
@@ -101,6 +101,7 @@ title: Hi 我是 lee
 > 该应用是纸牌类游戏， 沿用 “世界扑克大赛” 规则进行， 用来娱乐大众， 并且集成广告以及付款模块来获取利益。
 
 > 职责： 
+
 > >    1.服务器负载均衡的编写, 当时主要是通过心跳和限流和CPU 负载来计算
 > >    2.纸牌相关算法的设计
 > >    3.数据特征挖掘, 主要是为了市场的推广，和增加用户粘性等

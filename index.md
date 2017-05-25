@@ -6,7 +6,6 @@ title: Hi 我是 lee
 ## 联系方式
 
 - Email: lishujie911@gmail.com
-- 电话：15925802104
 
 ---
 
@@ -15,7 +14,7 @@ title: Hi 我是 lee
 - 李坏/男/1988
 - 工作年限：5年
 - Github: https://github.com/lihuaib
-- 期望职位：android
+- 期望职位：java 后端研发
 - 期望城市：杭州
 
 ---
@@ -36,11 +35,8 @@ title: Hi 我是 lee
 
 ### 杭州小余小余教育科技有限公司 （2015年8月 ～ 至今）
 
-#### 家有学霸 安卓端 [http://www.jiayouxueba.com/](https://play.google.com/store/apps/details?id=com.netspectrum.ccpal)
+#### 家有学霸 服务器 [http://www.jiayouxueba.com/](https://play.google.com/store/apps/details?id=com.netspectrum.ccpal)
 ![Alt text](http://file.market.xiaomi.com/thumbnail/jpeg/l395/AppStore/05a1e433b77c452e1e733917f9b6d3e19ac425a50)
-
-- 技术语言： Java, C, python 
-- 框架：eventbus + retrofit + okhttp + 参考fackebook的flux的思想
 
 > 团队组成大多数是来自阿里和网易的同学们
 
@@ -48,11 +44,11 @@ title: Hi 我是 lee
  
 > 项目描述: 家有学霸帮助更多的人能以更实惠的价格获取更好的教育为宗旨，做线上教育，主要是k12, 针对消费人群是中小学生，产品是集成聊天，语音，白板，视频回放等功能，较为完整的体现了在线教育的体系
 
-> 整个项目采用
-> >    提供了 xylist 针对android list开发的开源组件 [xylist](https://github.com/lihuaib/xylist)
-> >   通用的 自定义的日志模块 个人开源: xyLog https://github.com/lihuaib/xylog
-> >    路由表来封装模块，避免隐式跳转被劫持
-
+> 技术语言： Java, C, python 
+>> 整个项目采用：
+>>        a. 硬件体系采用阿里系，ecs, rds, mq, oss
+>>       b. 业务的剥离和维护，主要采用 spring(cloud+boot) 实现微服务
+>>       c. 对于部分接口，采用 memcache 保证其幂等性
 
 > 职责: 
 > >    1.项目主负责人
@@ -73,17 +69,16 @@ title: Hi 我是 lee
 
 > 项目描述:
     calling card pal (google play 可以下载)一个系列的国际电话辅助拨号软件， 与全球voip 供应商合作， 目地在于为全球拨打国际电话的用户提供更便宜的电话和语音服务.
-> android 端项目采用:
+> 简单事件框架:
     简化事件框架个人开源 JEvent https://github.com/lihuaib/jevent
 
 > 职责: 
-> >    1. 负责 android 的维护开发 以及 网络请求优化
-> >    2. 业务服务器 部署， 负载监控， 以及相关维护和开发
-> >    3. Voip 服务器： 目前选择freeswitch， 并且做相关部署和配置。
-> >    4. 团队职责： 负责整个团队进度的控制， 和产品的输出， 并针对市场客户的反应积极和合理调整产品功能 
+>> 1. 业务服务器 部署， 日志负载监控， 以及相关维护和开发
+>> 2. Voip 服务器： 目前选择freeswitch， 并且做相关部署和配置。
+>> 3. 团队职责： 负责整个团队进度的控制， 和产品的输出， 并针对市场客户的反应积极和合理调整产品功能 
 
 > 成果:
-    在我接手该项目后，ccpal 的android用户 从原来的 2 w 提高到了目前的 7w， 并且在google中也得到平均 4星的好评
+    在我接手该项目后，ccpal 的用户 在从 2 w 提高到7w 的过程中无任何事故，保证服务的稳定
 
 
 ---
@@ -101,11 +96,11 @@ title: Hi 我是 lee
 > 该应用是纸牌类游戏， 沿用 “世界扑克大赛” 规则进行， 用来娱乐大众， 并且集成广告以及付款模块来获取利益。
 
 > 职责： 
-
-> >    1.服务器负载均衡的编写, 当时主要是通过心跳和限流和CPU 负载来计算
-> >    2.纸牌相关算法的设计
-> >    3.数据特征挖掘, 主要是为了市场的推广，和增加用户粘性等
-> >    4.客户端“成就系统” 模块，该部分是基于unity ， 采用 mono 平台， 采用C# 完成主要代码， 我的职责是游戏大厅的建立， 和建立状态机， 从而让游戏角色摆脱代码的耦合性， 从而采用简单的脚本就可以控制各种角色
+>> 职责描述
+>> 服务器负载均衡的编写, 当时主要是通过心跳和限流和CPU 负载来计算
+>> 纸牌相关算法的设计
+>> 数据特征挖掘, 主要是为了市场的推广，和增加用户粘性等
+>> 客户端“成就系统” 模块，该部分是基于unity ， 采用 mono 平台， 采用C# 完成主要代码， 我的职责是游戏大厅的建立， 和建立状态机， 从而让游戏角色摆脱代码的耦合性， 从而采用简单的脚本就可以控制各种角色
 
 
 ---
